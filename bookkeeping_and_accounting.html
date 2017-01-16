@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services Card</title>
+    <link rel="stylesheet" href="temp_styles.css" media="screen" title="Primary Stylesheet">
+    </head>
+    <body>
+    <div class="card magenta_box_shadow">
+        <div class="card_tab">
+            <a href="http://christiebuckley.dreamhosters.com/services/bookkeeping-and-accounting/"><span class="card_heading magenta1 rounded_top">Bookkeeping and Accounting</span></a>
+        </div>  
+      <div>
+        <img class="card_image" src="http://christiebuckley.dreamhosters.com/wp-content/uploads/2016/09/521304774.jpg" alt="Accounting and Bookkeeping"
+        />
+      </div>
+        <div class="card_tab">
+          <a href="http://christiebuckley.dreamhosters.com/services/bookkeeping-and-accounting/#year_end_financials"><span class="card_sub_heading magenta2">Year End Financials</span></a>
+          <p class="card_desc card_panel hide">Professional, simple, easy to read Financial Statements helps you get what you need</p>
+        </div>
+        <div class="card_tab">
+          <a href="http://christiebuckley.dreamhosters.com/services/bookkeeping-and-accounting/#controller_services"><span class="card_sub_heading magenta3">Controller Services</span></a>
+          <p class="card_desc card_panel hide">An affordable solution to run your accounting systems and support your business dreams</p>
+        </div>
+        <div class="card_tab rounded_bottom magenta4">
+          <a href="http://christiebuckley.dreamhosters.com/services/bookkeeping-and-accounting/#analytic_services"><span class="card_sub_heading magenta4 rounded_bottom">Analytic Services</span></a>
+          <p class="card_desc card_panel hide rounded_bottom">Not sure how your books rank? We’d be happy to analyze and provide an opinion for you</p>
+        </div>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function ($) {
+      $('.card_tab').hover(function () {
+          $(this).find('.card_panel').stop(true, true).slideToggle()
+      }).find('.card_panel').hide()
+      });
+    </script>
+    </body>
+</html>

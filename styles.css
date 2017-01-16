@@ -1,0 +1,119 @@
+.card {
+  display: inline-block;
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  padding: 0;
+  color: white;
+  font-family: Lato, sans-serif;
+  border-radius: 10px;
+}
+.card div {
+  display: block;
+}
+.card_image {
+  display: block;
+  width: 100%;
+  vertical-align: baseline;
+  border-radius: 10px 10px 0 0;
+}
+.card_body {
+  display: block;
+  padding: 2px;
+}
+.card_body span {
+  display: block;
+  padding: 1em;
+}
+.card_heading {
+  font-size: 1.2em;
+}
+.card_sub_heading {
+  font-size: 1em;
+}
+p.card_desc.card_panel, .card_panel1 {
+    margin: 0;
+    padding: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+   /* Colors for the cards 1 - darkest; 4 -  brightest */
+.magenta1 {
+  background-color: #AD095B;
+}
+.magenta2 {
+  background-color: #BA0962;
+}
+.magenta5 {
+  background-color: #C20966;
+}
+.magenta3 {
+  background-color: #C70A68;
+}
+.magenta4 {
+  background-color: #DB0B73;
+}
+.magenta_box_shadow {
+  box-shadow: 0px 0px 10px #DB0B73;
+}
+.orange1 {
+  background-color: #B08200;
+}
+.orange2 {
+  background-color: #CF9800;
+}
+.orange5 {
+  background-color: #D69D00;
+}
+.orange3 {
+  background-color: #E5A900;
+}
+.orange4 {
+  background-color: #FFBC00;
+}
+.organge_box_shadow {
+  box-shadow: 0px 0px 10px #FFBC00;
+}
+.green1 {
+  background-color: #0B9100;
+}
+.green2 {
+  background-color: #0EAD00;
+}
+.green5 {
+  background-color: #0FB500;
+}
+.green3 {
+  background-color: #10C700;
+}
+.green4 {
+  background-color: #12E800;
+}
+.green_box_shadow {
+  box-shadow: 0px 0px 10px #12E800;
+}
+.yellow1 {
+  background-color: #A89E08;
+}
+.yellow2 {
+  background-color: #C7BB0A;
+}
+.yellow5 {
+  background-color: #D1C40B;
+}
+.yellow3 {
+  background-color: #E0D30B;
+}
+.yellow4 {
+  background-color: #EBDD0C;
+}
+.yellow_box_shadow {
+  box-shadow: 0px 0px 10px #EBDD0C;
+}
+.last {
+  border-radius: 0 0 10px 10px;
+}
+.hide {
+  display: none;
+}
